@@ -7,13 +7,13 @@ import bokeh
 df = pd.read_csv("soccerinfo.csv")
 
 # import bar graoh, output_file, and save functions from bokeh.charts
-from bokeh.charts import Bar, output_file, save
+from bokeh.charts import Scatter, output_file, save
 
 # Where the details will go
-output_file("Ratings.html")
+output_file("shots_pg.html")
 
 # Labeling the graph
-rating = Bar(df, 'Team', 'Rating', title="Best Rated Teams")
+shots_pg = Scatter(df, 'Team', 'Shots pg', title="Shots Per Game")
 
 # Save
-save(rating)
+save(shots_pg)

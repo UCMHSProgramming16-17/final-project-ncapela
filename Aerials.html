@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="plotdiv" id="17d48674-6051-4c70-97b9-51c5ccf9668e"></div>
+        </div>
+        
+        <script type="text/javascript">
+            Bokeh.$(function() {
+            Bokeh.safely(function() {
+                var docs_json = {"ee9b772b-5059-4b89-8d63-942da6ac6e24":{"roots":{"references":[{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"41f8ad67-2628-4291-b501-d4f9bc9c6acb","type":"BoxAnnotation"},{"attributes":{},"id":"7f12f0d8-3a0d-4884-9b8d-a10542a4148f","type":"CategoricalTicker"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"},"ticker":{"id":"7f12f0d8-3a0d-4884-9b8d-a10542a4148f","type":"CategoricalTicker"}},"id":"6d7589bb-9e44-474e-88a4-f6d933ad96c3","type":"Grid"},{"attributes":{},"id":"269719b3-a131-4c62-bfaa-2919dd79d31f","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"},"ticker":{"id":"269719b3-a131-4c62-bfaa-2919dd79d31f","type":"BasicTicker"}},"id":"69ba054c-bab2-4f1d-9f2b-92ecb34cd3dd","type":"Grid"},{"attributes":{},"id":"53459a02-f3a4-43aa-bb48-25ccdc4828fb","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"end":19.290000000000003,"start":11.01},"id":"cc8182fa-6e6f-420b-bddc-e0551cbcf56b","type":"Range1d"},{"attributes":{},"id":"426dddbe-a3f4-42a3-b601-52a16a0ea06c","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"f257ccba-ec29-4141-98f5-63194c4ca5a6","type":"ColumnDataSource"},"glyph":{"id":"095a2b6c-b291-40ba-b818-17aa5db26b6f","type":"Line"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"d29a5863-cc3f-4d13-9a2a-b8ec71b78da3","type":"GlyphRenderer"},{"attributes":{},"id":"b94bd9a3-05e3-41da-b0ed-16b90e061895","type":"ToolEvents"},{"attributes":{"line_color":{"value":"#f22c40"},"line_width":{"value":2},"x":{"field":"x_values"},"y":{"field":"y_values"}},"id":"095a2b6c-b291-40ba-b818-17aa5db26b6f","type":"Line"},{"attributes":{"below":[{"id":"5ef4afcb-5ca9-4879-9559-f80cece91421","type":"CategoricalAxis"}],"left":[{"id":"e86c62e0-d485-49ce-9fea-aa157ca7583e","type":"LinearAxis"}],"renderers":[{"id":"41f8ad67-2628-4291-b501-d4f9bc9c6acb","type":"BoxAnnotation"},{"id":"d29a5863-cc3f-4d13-9a2a-b8ec71b78da3","type":"GlyphRenderer"},{"id":"5d22ab80-4b6f-4316-96bf-c67ad1d2abc7","type":"Legend"},{"id":"5ef4afcb-5ca9-4879-9559-f80cece91421","type":"CategoricalAxis"},{"id":"e86c62e0-d485-49ce-9fea-aa157ca7583e","type":"LinearAxis"},{"id":"6d7589bb-9e44-474e-88a4-f6d933ad96c3","type":"Grid"},{"id":"69ba054c-bab2-4f1d-9f2b-92ecb34cd3dd","type":"Grid"}],"title":{"id":"17d2094d-745d-467c-805b-92a649beae71","type":"Title"},"tool_events":{"id":"b94bd9a3-05e3-41da-b0ed-16b90e061895","type":"ToolEvents"},"toolbar":{"id":"3ce73def-a6a4-416a-84a5-2a59235a0af2","type":"Toolbar"},"x_mapper_type":"auto","x_range":{"id":"c76bde7f-7ad4-41f2-a487-946565cffef6","type":"FactorRange"},"y_mapper_type":"auto","y_range":{"id":"cc8182fa-6e6f-420b-bddc-e0551cbcf56b","type":"Range1d"}},"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"},{"attributes":{"plot":null,"text":"Aerials Won Per Game"},"id":"17d2094d-745d-467c-805b-92a649beae71","type":"Title"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"cdce5f62-1a47-4608-9212-c7d3725399eb","type":"PanTool"},{"id":"2bc6d73f-44df-4ec4-a5ee-72deb6948bec","type":"WheelZoomTool"},{"id":"18a63c16-b32d-48da-ab47-513f97b9deff","type":"BoxZoomTool"},{"id":"48a85b10-a2b9-4143-9351-14995c540e76","type":"SaveTool"},{"id":"901afeec-868a-4978-832e-06adaeacc793","type":"ResetTool"},{"id":"9efcdc7c-3c81-47bb-97bf-d076bec3ce1b","type":"HelpTool"}]},"id":"3ce73def-a6a4-416a-84a5-2a59235a0af2","type":"Toolbar"},{"attributes":{"location":"top_left","plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"5d22ab80-4b6f-4316-96bf-c67ad1d2abc7","type":"Legend"},{"attributes":{"axis_label":"AerialsWon","formatter":{"id":"426dddbe-a3f4-42a3-b601-52a16a0ea06c","type":"BasicTickFormatter"},"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"},"ticker":{"id":"269719b3-a131-4c62-bfaa-2919dd79d31f","type":"BasicTicker"}},"id":"e86c62e0-d485-49ce-9fea-aa157ca7583e","type":"LinearAxis"},{"attributes":{"callback":null,"factors":["FC Porto","Benfica","Sporting CP","Braga","Vitoria de Guimaraes","Maritimo","Rio Ave","Chaves","Vitoria de Setubal","Boavista","Estoril","Arouca","Moreirense","Belenenses","Pacos de Ferreira","Nacional","Tondela","Feirense"]},"id":"c76bde7f-7ad4-41f2-a487-946565cffef6","type":"FactorRange"},{"attributes":{"callback":null,"column_names":["x_values","y_values"],"data":{"chart_index":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"x_values":["FC Porto","Benfica","Sporting CP","Braga","Vitoria de Guimaraes","Maritimo","Rio Ave","Chaves","Vitoria de Setubal","Boavista","Estoril","Arouca","Moreirense","Belenenses","Pacos de Ferreira","Nacional","Tondela","Feirense"],"y_values":[17.1,11.7,13.7,14.8,14.0,11.9,14.6,15.0,13.5,18.6,13.6,15.6,15.6,16.4,16.4,12.5,14.9,14.7]}},"id":"f257ccba-ec29-4141-98f5-63194c4ca5a6","type":"ColumnDataSource"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"cdce5f62-1a47-4608-9212-c7d3725399eb","type":"PanTool"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"9efcdc7c-3c81-47bb-97bf-d076bec3ce1b","type":"HelpTool"},{"attributes":{"axis_label":"Team","formatter":{"id":"53459a02-f3a4-43aa-bb48-25ccdc4828fb","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"},"ticker":{"id":"7f12f0d8-3a0d-4884-9b8d-a10542a4148f","type":"CategoricalTicker"}},"id":"5ef4afcb-5ca9-4879-9559-f80cece91421","type":"CategoricalAxis"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"2bc6d73f-44df-4ec4-a5ee-72deb6948bec","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"41f8ad67-2628-4291-b501-d4f9bc9c6acb","type":"BoxAnnotation"},"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"18a63c16-b32d-48da-ab47-513f97b9deff","type":"BoxZoomTool"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"48a85b10-a2b9-4143-9351-14995c540e76","type":"SaveTool"},{"attributes":{"plot":{"id":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b","subtype":"Chart","type":"Plot"}},"id":"901afeec-868a-4978-832e-06adaeacc793","type":"ResetTool"}],"root_ids":["29b65e93-8f86-4b2f-bcec-9a1489ddba9b"]},"title":"Bokeh Application","version":"0.12.3"}};
+                var render_items = [{"docid":"ee9b772b-5059-4b89-8d63-942da6ac6e24","elementid":"17d48674-6051-4c70-97b9-51c5ccf9668e","modelid":"29b65e93-8f86-4b2f-bcec-9a1489ddba9b"}];
+                
+                Bokeh.embed.embed_items(docs_json, render_items);
+            });
+        });
+        </script>
+    </body>
+</html>

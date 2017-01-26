@@ -7,13 +7,13 @@ import bokeh
 df = pd.read_csv("soccerinfo.csv")
 
 # import bar graoh, output_file, and save functions from bokeh.charts
-from bokeh.charts import Bar, output_file, save
+from bokeh.charts import Line, output_file, save
 
 # Where the details will go
-output_file("Ratings.html")
+output_file("Aerials.html")
 
 # Labeling the graph
-rating = Bar(df, 'Team', 'Rating', title="Best Rated Teams")
+Aerials = Line(df, 'Team', 'AerialsWon', title="Aerials Won Per Game")
 
 # Save
-save(rating)
+save(Aerials)
